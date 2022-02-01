@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body {
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 16px;
+        }
+        .social-icons{
+           width: 50px;
+           height: 50px;
+           padding-top: 16px;
+           padding-bottom: 16px;
+           padding-left: 32px;
+           padding-right: 32px;
+        }
+        form {
+            text-align: center;
+            background-color: white;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 1px solid #ccc;
+        }
+        #formheading{
+          font-size: 32px;
+          padding-top: 56px;
+          padding-bottom: 32px;
+        }
+        #social-wrapper{
+            background-color: #f2f6ff;
+            padding: 24px;
+        }
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border: 0;
+            border-bottom: 1px solid #ccc;
+            width: 100%;
+        }
+        #input-wrapper{
+            padding-top: 80px;
+            padding-bottom: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+        }
+        #btn-submit{
+            background-color: #0056ff;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right: 24px;
+            font-size: 18px;
+            color: white;
+            border: 1px solid rgb(3, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <h1 id="formheading">Register</h1>
+        <div id="social-wrapper">
+            <img  class="social-icons" src="https://i.pinimg.com/originals/39/21/6d/39216d73519bca962bd4a01f3e8f4a4b.png" alt="google logo">
+            <img  class="social-icons" src="https://www.pngkit.com/png/detail/0-4506_facebook-logo-png-transparent-facebook-icon-small-png.png" alt="facebook logo">
+            <img class="social-icons" src="https://www.kindpng.com/picc/m/255-2558173_github-logo-png-transparent-png.png" alt="github logo">
+            <img  class="social-icons" src="https://www.kindpng.com/picc/m/363-3632986_logo-linkedin-png-rond-transparent-png.png" alt="linkedin logo">
+        </div>
+        <div id="input-wrapper">
+         <div>
+             <input class="input-box"
+              type="text" 
+              name="username" 
+              placeholder="username">
+         </div>
+         <div>
+            <input class="input-box"
+             type="email" 
+             name="email" 
+             placeholder="email">
+        </div>
+        <div>
+            <input class="input-box"
+             type="password" 
+             name="password" 
+             placeholder="password">
+        </div>
+        <div>
+            <input class="input-box"
+             type="password" 
+             name="confirm-password" 
+             placeholder="confirm password">
+        </div>
+        <input id="btn-submit" 
+        type="submit"
+        value="Register">
+        </div>
+    </form>
+</body>
+</html>
